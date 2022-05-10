@@ -1,0 +1,47 @@
+* {
+  --clr-green: #5f9341;
+  --clr-white: #ffff;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+input {
+  border: 1.2px solid var(--clr-green);
+  width: 100%;
+  padding-block: 0.8rem;
+  margin-bottom: 0.3rem;
+  text-indent: 2%; /*or the format below*/
+  /* padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box; */ /*for not overflowing even the width are over 100%*/
+}
+button {
+  padding: 0.9rem 1rem;
+  background-color: var(--clr-green);
+  color: var(--clr-white);
+  border: 1px solid var(--clr-green);
+  font-weight: 900;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+#delete-btn {
+  background-color: var(--clr-white);
+  color: var(--clr-green);
+}
+
+#ul-el {
+  list-style: none;
+  padding-left: 0%;
+  margin-top: 1.5rem;
+}
+li {
+  margin-top: 0.5rem;
+}
+li a {
+  color: var(--clr-green);
+}

@@ -1,0 +1,24 @@
+JSON - Javascript Object Notation
+
+Way for us developers to store and send data.
+Often used when you want to send a piece of data from a server to a client(that is to a browser)
+
+In our case we are using this manifest.json file to configure our app and to provide metadata about it.
+
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "Leads tracker", 
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}
+
+"manifest_version" - telling chrome which version of this json file we are using
+
+"version" so if we change it to e.g "1.1" it will know that we upgraded our version.
+
+"name" - google chrome will give our app the name "Leads tracker"
+
+"action" - kind of the MEAT of our application. It configures what happens when the user clicks on our application from the google chrome extension tool bar
